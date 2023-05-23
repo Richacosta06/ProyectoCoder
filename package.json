@@ -1,0 +1,23 @@
+{
+  "name": "parenly",
+  "version": "1.0.0",
+  "description": "Pagina web de parenly",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass" : "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richacosta06/Parenly.git"
+  },
+  "author": "Richard Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richacosta06/Parenly/issues"
+  },
+  "homepage": "https://github.com/Richacosta06/Parenly#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.60.0"
+  }
+}

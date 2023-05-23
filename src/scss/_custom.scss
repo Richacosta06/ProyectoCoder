@@ -1,0 +1,20 @@
+//Personalizando variables de bootstrap
+$morado: #99179b;
+$azul: #360183;
+$gris: #475569;
+$negro: #000000;
+$gris_claro: #F7F7F7;
+
+//Asignando paleta a bootstrap
+$success : $morado;
+$primary : $azul;
+$secondary : $gris;
+$dark : $negro;
+$light : $gris_claro;
+
+//Tipografia
+$display-font-weight: 600;
+
+
+// importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'

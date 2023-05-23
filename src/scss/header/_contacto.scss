@@ -1,0 +1,15 @@
+@use '../custom' as *;
+@use '../base/mixins' as m;
+
+main{
+    background-image: url(/build/img/bannerParenly1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70%;
+    overflow: hidden;
+}
+
+
+
+
