@@ -17,6 +17,13 @@ body{
     height: 5vh; /* Ajusta la altura según tus necesidades */
 }
 
+.return_button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior según tus necesidades */
+    right: 20px; /* Ajusta la distancia desde el borde derecho según tus necesidades */
+}
+  
+
 .resaltar{
     color: yellow;
 }

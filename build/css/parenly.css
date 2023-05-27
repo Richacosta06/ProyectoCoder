@@ -1075,6 +1075,12 @@ textarea.form-control {
 .rounded-5 {
   border-radius: var(--bs-border-radius-2xl) !important;
 }
+
+@media (min-width: 576px) {
+  .mt-sm-1 {
+    margin-top: 0.25rem !important;
+  }
+}
 @media (min-width: 992px) {
   .mb-lg-0 {
     margin-bottom: 0 !important;
@@ -1101,6 +1107,12 @@ body {
   align-items: center; /* Alineación vertical en el centro */
   justify-content: center; /* Alineación horizontal en el centro */
   height: 5vh; /* Ajusta la altura según tus necesidades */
+}
+
+.return_button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde el borde inferior según tus necesidades */
+  right: 20px; /* Ajusta la distancia desde el borde derecho según tus necesidades */
 }
 
 .resaltar {
