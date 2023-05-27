@@ -99,7 +99,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
- h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+ h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -130,15 +130,6 @@ h3, .h3 {
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
-  }
-}
-
-h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
   }
 }
 
@@ -1140,7 +1131,7 @@ body {
 }
 
 .registro {
-  background-image: url(/build/img/bannerParenly1.jpg);
+  background-image: url(build/img/bannerParenly1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1156,7 +1147,7 @@ body {
 }
 
 main {
-  background-image: url(/build/img/bannerParenly1.jpg);
+  background-image: url(build/img/bannerParenly1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
