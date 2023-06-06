@@ -58,12 +58,33 @@
     </header>
 
     <main>
-        <h1 class="text-center my-5">Regístrate</h1>
+        <h1 class="text-center mt-5">Regístrate</h1>
+        <p class="text-center mb-5 fs-5" >Ingresa tus datos y te contactaremos para realizar validaciones y completar tu registro</p>
         <section class="container-xl  pb-5">
-            <div class="contact row">
-
-        
-
+            <div class="form-contact row">
+                <form class="mx-auto col-md-8 col-sm-8 col-lg-6">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control rounded-5" id="nombre" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre_colegio" class="form-label">Nombre del Colegio</label>
+                        <input type="text" class="form-control rounded-5" id="nombre_colegio" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control rounded-5" id="email" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control rounded-5" id="tel" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label">Dirección</label>
+                        <input type="text" class="form-control rounded-5" id="direccion" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-success px-5 mt-5 fw-bold rounded-5 text-uppercase">Enviar</button>
+                </form>
             </div>
         </section>
     </main>

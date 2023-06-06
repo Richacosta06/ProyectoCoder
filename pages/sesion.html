@@ -57,9 +57,19 @@
 
     <main>
         <h1 class="text-center my-5">Iniciar Sesión</h1>
-        <section class="container-xl  pb-5">
-            <div class="contact row">
-
+        <section class="container-xl pb-5">
+            <div class="form-contact row">
+                <form class="mx-auto col-md-6 col-sm-6 col-lg-4">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control rounded-5" id="email" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control rounded-5" id="password" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-success px-4 mt-5 fw-bold rounded-5 text-uppercase">Iniciar Sesión</button>
+                </form>
             </div>
         </section>
     </main>

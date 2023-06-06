@@ -1120,6 +1120,14 @@ body {
   bottom: 20px; /* Ajusta la distancia desde el borde inferior según tus necesidades */
   right: 20px; /* Ajusta la distancia desde el borde derecho según tus necesidades */
 }
+.return_button .button img:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+.return_button .button:not(:hover) {
+  transform: scale(1);
+  transition: 1s ease-in-out;
+}
 
 .resaltar {
   color: yellow;
