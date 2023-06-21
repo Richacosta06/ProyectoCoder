@@ -198,11 +198,13 @@ button {
 }
 
 button,
-[type=button] {
+[type=button],
+[type=submit] {
   -webkit-appearance: button;
 }
 button:not(:disabled),
-[type=button]:not(:disabled) {
+[type=button]:not(:disabled),
+[type=submit]:not(:disabled) {
   cursor: pointer;
 }
 
@@ -323,6 +325,10 @@ iframe {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+  .col-sm-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
   }
   .col-sm-10 {
     flex: 0 0 auto;
