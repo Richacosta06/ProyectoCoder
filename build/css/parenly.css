@@ -1130,10 +1130,6 @@ body {
   transform: scale(1.2);
   transition: 0.5s ease;
 }
-.return_button .button:not(:hover) {
-  transform: scale(1);
-  transition: 1s ease-in-out;
-}
 
 .resaltar {
   color: yellow;
@@ -1149,7 +1145,7 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(360deg, rgba(54, 1, 131, 0.7007177871) 0%, rgba(255, 255, 255, 0.3393732493) 59%), url("../img/banner1.png");
+  background-image: linear-gradient(360deg, rgba(54, 1, 131, 0.7007177871) 0%, rgba(255, 255, 255, 0.3393732493) 59%), url("../img/banner1.webp");
   background-position: 50%;
   background-size: cover;
 }
@@ -1163,7 +1159,7 @@ body {
 }
 
 .registro {
-  background-image: url(../img/bannerParenly1.jpg);
+  background-image: url(../img/bannerParenly1.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1179,7 +1175,7 @@ body {
 }
 
 main {
-  background-image: url(../img/bannerParenly1.jpg);
+  background-image: url(../img/bannerParenly1.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
